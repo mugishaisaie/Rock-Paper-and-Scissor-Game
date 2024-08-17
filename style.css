@@ -1,0 +1,105 @@
+
+body{
+    background-color: rgb(25, 25, 25);
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 80%;
+}
+.buttons{
+    margin-left: 28rem;
+
+}
+.rms{
+    display: flex;
+    justify-content: center;
+    margin-left: 22rem;
+}
+.rules{
+    text-align: center;
+    font-family: Arial;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    color: #ddd;
+}
+h2{
+    font-size: 2rem;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+h4{
+    font-size: 1.2rem;
+    text-align: center;
+}
+.move-btn{
+    background-color: transparent;
+    width: 120px;
+    height: 120px ;
+    border: 4px solid #fff;
+    border-radius: 50%;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+}
+
+.cs-moves{
+    font-size: 1.1rem;
+    margin: 0 5rem;
+}
+
+.score{
+    position:absolute;
+    font-size: 1.2rem;
+    margin: 1.4rem 0;
+    left: 31rem;
+    color: rgb(184, 184, 79);
+}
+
+
+
+.cs-result{
+font-size: 1.5rem;
+font-weight: bold;
+}
+
+.reset-score-btn{
+    margin: 4rem;
+padding: 8px 18px;
+font-weight: bold;
+font-size: 1.4rem;
+border-radius: 5px;
+cursor: pointer;
+border: none;
+position:absolute ;
+left: 28rem;
+background-color: #d5eb77;
+}
+
+.auto-btn{
+    margin: 4rem;
+    padding: 8px 18px;
+    font-weight: bold;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    position:absolute ;
+    left: 40rem;
+    background-color: #d5eb77;
+
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    left: 32rem;
+
+}
